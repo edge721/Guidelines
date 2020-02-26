@@ -5,17 +5,17 @@ NodeJs Guidelines Fresher/Intermediate
 
 * Need to log technical changes over confluence and need to notify team (Frontend team only accept change only if it is mentioned in confluence)
 * There must 4 branches during development 
-* Dev : For internal development
-* Qa: For QA testing 
-* Staging: To be sent to client
-* Master: production 
+  > * Dev : For internal development
+  > * Qa: For QA testing 
+  > * Staging: To be sent to client
+  > * Master: production 
 
 * We would have 4 separate deployments for each branch.
 * There is at least one code reviewer for any merge over dev branch
 * QA and Staging branch will only be merged by tech lead(Either internal or Client side)
 * A linter passing code will only be eligible for pull request (Reviewer will responsible for that)
 
-# Process flow for New Fresh/Intermediate Joiners
+# Basic Guidelines for new joiners
 
 # Documenting better
 * Try to document every module with relevant information about the module like what it does and who wrote it
