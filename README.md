@@ -10,10 +10,18 @@ NodeJs Guidelines Fresher/Intermediate
   > * Staging: To be sent to client
   > * Master: production 
 
-* We would have 4 separate deployments for each branch.
+* We would have 4 separate deployments,one for each branch.
 * There is at least one code reviewer for any merge over dev branch
 * QA and Staging branch will only be merged by tech lead(Either internal or Client side)
 * A linter passing code will only be eligible for pull request (Reviewer will responsible for that)
+  > Use the below libraries to get around dependencies for your Code editer
+    > * "eslint": "^6.8.0"
+    > * "eslint-config-airbnb": "^18.0.1"
+    > * "eslint-config-airbnb-base": "^14.0.0"
+    > * "eslint-config-prettier": "^6.10.0"
+    > * "eslint-plugin-import": "^2.20.1"
+    > * "@typescript-eslint/parser"
+    > * @typescript-eslint/eslint-plugin"
 
 # Basic Guidelines for new joiners
 
